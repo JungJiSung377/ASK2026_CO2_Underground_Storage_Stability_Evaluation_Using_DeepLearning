@@ -1,7 +1,8 @@
-## :link: :1st_place_medal: ASK2026 : 딥러닝을 활용한 CO2 지중 저장소 안정성 평가
+## :link: :1st_place_medal: ASK2026 : CO2 Underground Storage Stability Evaluation Using Deep Learning
 
 주제 : 딥러닝을 활용한 CO2 지중 저장소 안정성 평가
 
+* **저자 : 정지성, 김민지, 김주연, 오준석, 김경민, 김영균**
 * **저자 : 정지성, 김민지, 김주연, 오준석, 김경민, 김영균**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
