@@ -29,6 +29,9 @@
 <p align="center">
   <img src="docs/figures/ricker_wavelet_waveform.png" width="500" alt="Ricker Wavelet Waveform">
 </p>
+
+---
+
 <p align="center">
   <img src="docs/figures/2d_section_well_log.png" width="550" alt="2D Section and 1D Well Log">
 </p>
@@ -66,6 +69,9 @@
 <p align="center">
   <img src="docs/figures/pressure_evolution_sobol.png" width="500" alt="Pressure Evolution and Sobol Sensitivity">
 </p>
+
+---
+
 <p align="center">
   <img src="docs/figures/rl_control_pareto_front.png" width="500" alt="RL Control Pareto Frontier">
 </p>
