@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+plotly
+pandas
+torch
+chaospy
+gymnasium
+stable-baselines3
+shimmy
+scikit-learn
