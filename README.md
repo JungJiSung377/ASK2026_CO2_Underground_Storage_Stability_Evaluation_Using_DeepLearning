@@ -26,7 +26,9 @@
 * **공간 연속성 확보:** 가우시안 랜덤 필드(GRF) 기법을 활용하여 지층 특성을 재현하였다.
 * **현장성 반영:** 노르웨이 **Sleipner 프로젝트**의 실제 저류층 데이터를 기반으로 현장 적용 가능성을 고려하여 보수적인 물성 범위를 설계하였다.
 * **전처리:** 지진파 데이터는 선형 정규화([-1, 1]), 시추 로그는 Z-score 정규화를 적용하여 학습 안정성을 높였다.
-
+<p align="center">
+  <img src="docs/figures/ricker_wavelet_waveform.png" width="600" alt="Ricker Wavelet Waveform">
+</p>
 ---
 
 ## 📌 03. 물리 정보 신경망 설계 (PINNs Design)
