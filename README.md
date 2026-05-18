@@ -29,6 +29,9 @@
 <p align="center">
   <img src="docs/figures/ricker_wavelet_waveform.png" width="500" alt="Ricker Wavelet Waveform">
 </p>
+<p align="center">
+  <img src="docs/figures/2d_section_well_log.png" width="550" alt="2D Section and 1D Well Log">
+</p>
 
 ---
 
@@ -37,6 +40,9 @@
 
 * **통합 손실 함수 ($Loss_{total}$):** 데이터 정합성($Loss_{data}$), 질량 보존 및 Darcy 법칙 준수($Loss_{physics}$), 그리고 지반 안전 패널티($Loss_{penalty}$)를 결합하였습니다.
 * **신경망 구조:** 5층 규모의 MLP와 물리 방정식의 미분 계산을 보장하는 Hyperbolic Tangent 활성화 함수를 채택하였습니다.
+<p align="center">
+  <img src="docs/figures/porosity_3d_volume.png" width="500" alt="3D Porosity Volume Rendering">
+</p>
 
 ---
 
@@ -45,6 +51,9 @@
 
 * **효율적 추론:** 복잡한 시뮬레이션 대신 직교 다항식의 선형 결합을 통해 짧은 시간 내 신뢰도 높은 예측을 수행합니다.
 * **안정성 기준:** 덮개암 파손 및 유도 지진 방지를 위해 임계 압력을 **45MPa**로 설정하여 위험도를 진단하였습니다.
+<p align="center">
+  <img src="docs/figures/pinn_pressure_comparison.png" width="500" alt="PINN Pressure Comparison">
+</p>
 
 ---
 
@@ -54,6 +63,12 @@
 * **상태(State):** 저류층 평균 압력, 실시간 탄소 가격, 임계 압력 여유도 등을 인지합니다.
 * **행동(Action):** 기준 유량 대비 조절 비율(0.5~1.5)을 통해 CO2 주입량을 직접 제어합니다.
 * **보상(Reward):** 경제적 수익($R_{profit}$)을 추구하되, 임계 압력 초과 시 지수적으로 가중되는 패널티($R_{penalty}$)를 부여합니다.
+<p align="center">
+  <img src="docs/figures/pressure_evolution_sobol.png" width="500" alt="Pressure Evolution and Sobol Sensitivity">
+</p>
+<p align="center">
+  <img src="docs/figures/rl_control_pareto_front.png" width="500" alt="RL Control Pareto Frontier">
+</p>
 
 ---
 
@@ -62,6 +77,9 @@
 
 * **정확도 및 속도:** 미학습 데이터에서도 **$R^2$ 0.9950**의 높은 정확도와 **0.0015초**의 초고속 연산 속도를 달성하였습니다.
 * **위험 저감:** 강화학습 제어를 통해 확률론적 위험 압력을 안전 범위 내로 정밀 제어하여 위험률을 **50% 이상 감소**시켰습니다.
+<p align="center">
+  <img src="docs/figures/blind_test_history_matching.png" width="500" alt="Blind Test History Matching">
+</p>
 
 ---
 
